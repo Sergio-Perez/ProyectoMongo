@@ -11,5 +11,5 @@ def geocode(address):
     
     return {
         "type":"Point",
-        "coordinates": [float(data["longt"]), float(data["latt"])]
+        "coordinates": [ float(data["longt"]),float(data["latt"])]
     }

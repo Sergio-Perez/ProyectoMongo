@@ -12,3 +12,6 @@ def buscaroficinaGeoPoint(row):
         else:
             return (None,"No lat and long keys in office dict")
     return (None,"No office")
+
+
+    

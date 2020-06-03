@@ -1,5 +1,5 @@
 import time
-from SacarGeocode import *
+from src.SacarGeocode import *
 
 def masivoGeocode(dataframe):
     puntos_geocode=[]

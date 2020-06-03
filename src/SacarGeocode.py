@@ -48,7 +48,7 @@ def geocodeNewYork(address):
 
 # Sacar geolocalización con XYZ api en Madrid
 
-    def geocodeMadrid(address):
+def geocodeMadrid(address):
     '''resp = requests.get("https://geocode.xyz/51.4647,0.0079?json=1&auth=your auth code")
     Use geocode api to do forward geocoding. https://geocode.xyz/api
     '''

@@ -29,7 +29,8 @@ Por medio de Querys y de MongoDB usando el indice Geoespacial miro las distancia
 Como solo me sale una coincidencia no tengo que probar más para Madrid.
 
 Siendo el resultado.
-<img src="/Input/imagenes/resultadoColocacionEmpresa.html" >
 
 
-![Imagen resultado](/Input/imagenes/resultadoColocacionEmpresa.html)
+<img src="/Input/imagenes/resultadoColocacionEmpresa.html" width="100">
+
+

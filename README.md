@@ -1,3 +1,5 @@
+![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+
 # ProyectoMongo
 En este proyecto vamos a buscar una localización para mi empresa de Gamer que vamos a hipotizar que vamos a crear.
 
@@ -10,8 +12,9 @@ Primero seleciono una ubicación, como yo vivo en Madrid. Busco las empresas tec
 
 ## Nos piden unos requisitos para la ubicación de nuestra empresa.
 Los criterio que voy a coger son:
+
     --> Guarderias cercanas.
-    --> Starbukcs
+    --> Starbukcs    
     --> Aeropuertos.
 ## Buscar información:
 
@@ -26,5 +29,7 @@ Por medio de Querys y de MongoDB usando el indice Geoespacial miro las distancia
 Como solo me sale una coincidencia no tengo que probar más para Madrid.
 
 Siendo el resultado.
+<img src="/Input/imagenes/resultadoColocacionEmpresa.html" >
 
-![Imagen resultado](./Input/imagenes/resultadoColocacionEmpresa.html)
+
+![Imagen resultado](/Input/imagenes/resultadoColocacionEmpresa.html)

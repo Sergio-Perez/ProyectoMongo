@@ -2,6 +2,8 @@
 En este proyecto vamos a buscar una localización para mi empresa de Gamer que vamos a hipotizar que vamos a crear.
 
 
+![Imagen mapa](https://cdni.rt.com/actualidad/public_images/2015.01/original/54b519f272139e17538b45b0.jpg)
+
 
 ## Desde un json de compañias vamos a empezar el análisis.
 Primero seleciono una ubicación, como yo vivo en Madrid. Busco las empresas tecnológicas que vienen en el archivo que hemos limpiado y actualizado.
@@ -12,15 +14,17 @@ Los criterio que voy a coger son:
     --> Starbukcs
     --> Aeropuertos.
 ## Buscar información:
+
 Haciendo web scraping saco las direcciones de los starbucks, guarderias y aeropuertos.
 Los cruzo con la api de geocode.xyz despues de coger una Api key para poder realizar más repido las peticiones.
+Como con geocode.xyz no me da una geolocalización con la que estoy satisfecho uso la API de Google para ello.
+Inserto los datos en Mongodb y los indexo en GEOSPHERE.
 
-Inserto los datos en Mongodb y los indexo.
+## Busco la proximidad entre estas opciones:
+Por medio de Querys y de MongoDB usando el indice Geoespacial miro las distancias entre ellos.
 
-Y busco las hubicaciones de los lugares.
+Como solo me sale una coincidencia no tengo que probar más para Madrid.
 
-Como no encuentro ninguno cambio las geolocalizaciones,
- Y cambio a otra zona de busqueda ya que eso no me funciona y busco en New York
- por ser una de las mayores ciudades del mundo.
- Saco las direciones de guarderias, aeropuertos, restaurantes veganos y Starbucks.
- Y hay ya no me dejo exportar los json, o Mongos no me dejaba Indexar en modo geoespacial. 
+Siendo el resultado.
+
+![Imagen resultado](./Input/imagenes/resultadoColocacionEmpresa.html)

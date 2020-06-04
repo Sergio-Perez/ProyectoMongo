@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b6ee74c0c1da4f319751915d4997d72d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b6ee74c0c1da4f319751915d4997d72d" ></div>
+        
+</body>
+<script>    
+    
+            var map_b6ee74c0c1da4f319751915d4997d72d = L.map(
+                "map_b6ee74c0c1da4f319751915d4997d72d",
+                {
+                    center: [40.40816, -3.67744],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ca8fdc9585f4842b7439f0781c6259e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var marker_cluster_111bcc92d2a54320a4ea20555981ba9b = L.markerClusterGroup(
+                {}
+            );
+            map_b6ee74c0c1da4f319751915d4997d72d.addLayer(marker_cluster_111bcc92d2a54320a4ea20555981ba9b);
+        
+    
+            var marker_1b3a322234e047cabf8c26b3a895f20a = L.marker(
+                [40.4398097, -3.6455125],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_ad5a4afcb27c4f7095db46eb112f9514 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1b3a322234e047cabf8c26b3a895f20a.setIcon(icon_ad5a4afcb27c4f7095db46eb112f9514);
+        
+    
+        var popup_c59bc5d5583047249cee5a2b9141f524 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_832acab2a7ad4d5b8cbbc555156e4b40 = $(`<div id="html_832acab2a7ad4d5b8cbbc555156e4b40" style="width: 100.0%; height: 100.0%;">Jaizkibel</div>`)[0];
+            popup_c59bc5d5583047249cee5a2b9141f524.setContent(html_832acab2a7ad4d5b8cbbc555156e4b40);
+        
+
+        marker_1b3a322234e047cabf8c26b3a895f20a.bindPopup(popup_c59bc5d5583047249cee5a2b9141f524)
+        ;
+
+        
+    
+    
+            var marker_53a61f298cf34ffcb794608575539d69 = L.marker(
+                [40.39905030000001, -3.7000098],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_f29f5433f5b0408d959246d7b0c63ea4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_53a61f298cf34ffcb794608575539d69.setIcon(icon_f29f5433f5b0408d959246d7b0c63ea4);
+        
+    
+        var popup_332110a0dba44bce92eb9e097e5ffd53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b71d77426f094967af81a423c5f2a4c7 = $(`<div id="html_b71d77426f094967af81a423c5f2a4c7" style="width: 100.0%; height: 100.0%;">Escuela Infantil Pipo’s</div>`)[0];
+            popup_332110a0dba44bce92eb9e097e5ffd53.setContent(html_b71d77426f094967af81a423c5f2a4c7);
+        
+
+        marker_53a61f298cf34ffcb794608575539d69.bindPopup(popup_332110a0dba44bce92eb9e097e5ffd53)
+        ;
+
+        
+    
+    
+            var marker_0f5716f59b584d5c9b087fb654ecc56e = L.marker(
+                [40.3824213, -3.6959297],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_bcceea769b03401bb6ac50572dde64e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_0f5716f59b584d5c9b087fb654ecc56e.setIcon(icon_bcceea769b03401bb6ac50572dde64e3);
+        
+    
+        var popup_742a5e79a9c34234bf76dfaa60e2d438 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5a0527188a84132bd82182c5573159f = $(`<div id="html_f5a0527188a84132bd82182c5573159f" style="width: 100.0%; height: 100.0%;">El Bosque Encantado</div>`)[0];
+            popup_742a5e79a9c34234bf76dfaa60e2d438.setContent(html_f5a0527188a84132bd82182c5573159f);
+        
+
+        marker_0f5716f59b584d5c9b087fb654ecc56e.bindPopup(popup_742a5e79a9c34234bf76dfaa60e2d438)
+        ;
+
+        
+    
+    
+            var marker_6ea37ccedf8e4165ab3485db202528d7 = L.marker(
+                [40.3875453, -3.7097628],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_39d089c7580a44f88898b60f72a7c3d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6ea37ccedf8e4165ab3485db202528d7.setIcon(icon_39d089c7580a44f88898b60f72a7c3d0);
+        
+    
+        var popup_98fc76344d4e4ca2823b0ed75086df90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb0a54a65aee4f36aa46a1d2a614964b = $(`<div id="html_bb0a54a65aee4f36aa46a1d2a614964b" style="width: 100.0%; height: 100.0%;">Guarderia Arco de Colores</div>`)[0];
+            popup_98fc76344d4e4ca2823b0ed75086df90.setContent(html_bb0a54a65aee4f36aa46a1d2a614964b);
+        
+
+        marker_6ea37ccedf8e4165ab3485db202528d7.bindPopup(popup_98fc76344d4e4ca2823b0ed75086df90)
+        ;
+
+        
+    
+    
+            var marker_595fd63ab782448eaa36a74979e41afb = L.marker(
+                [40.3845528, -3.6465462],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_b3b3e2c8693a44b892ec0c8075211afe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_595fd63ab782448eaa36a74979e41afb.setIcon(icon_b3b3e2c8693a44b892ec0c8075211afe);
+        
+    
+        var popup_d8815919c1c643a2b546ba1ad2071476 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d917badb3c74434bb18ff60416a81e46 = $(`<div id="html_d917badb3c74434bb18ff60416a81e46" style="width: 100.0%; height: 100.0%;">Guarderia Infantil Primeros Pasos</div>`)[0];
+            popup_d8815919c1c643a2b546ba1ad2071476.setContent(html_d917badb3c74434bb18ff60416a81e46);
+        
+
+        marker_595fd63ab782448eaa36a74979e41afb.bindPopup(popup_d8815919c1c643a2b546ba1ad2071476)
+        ;
+
+        
+    
+    
+            var marker_f3f285e6cc1f4a16be34aef5e5dca4f6 = L.marker(
+                [40.40826, -3.674009],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_f0f89334b7ca4b48a259e57e985deca0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f3f285e6cc1f4a16be34aef5e5dca4f6.setIcon(icon_f0f89334b7ca4b48a259e57e985deca0);
+        
+    
+        var popup_8fb407832caa421ab4075ee0bc8112dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f63db7dec5bb439c8531bb77f25ec22c = $(`<div id="html_f63db7dec5bb439c8531bb77f25ec22c" style="width: 100.0%; height: 100.0%;">Estrella Amdal</div>`)[0];
+            popup_8fb407832caa421ab4075ee0bc8112dd.setContent(html_f63db7dec5bb439c8531bb77f25ec22c);
+        
+
+        marker_f3f285e6cc1f4a16be34aef5e5dca4f6.bindPopup(popup_8fb407832caa421ab4075ee0bc8112dd)
+        ;
+
+        
+    
+    
+            var marker_1a1738eeed064d5898a9c85cc235b5e8 = L.marker(
+                [40.411704, -3.674691499999999],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_9ce60736e2ad4f94b7c7c53af0586292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1a1738eeed064d5898a9c85cc235b5e8.setIcon(icon_9ce60736e2ad4f94b7c7c53af0586292);
+        
+    
+        var popup_124b7d508a344cc686fb9208342c612f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a4569acc89545b6ade7a54acea1c052 = $(`<div id="html_1a4569acc89545b6ade7a54acea1c052" style="width: 100.0%; height: 100.0%;">Rocho Carmona Maria del Carmen</div>`)[0];
+            popup_124b7d508a344cc686fb9208342c612f.setContent(html_1a4569acc89545b6ade7a54acea1c052);
+        
+
+        marker_1a1738eeed064d5898a9c85cc235b5e8.bindPopup(popup_124b7d508a344cc686fb9208342c612f)
+        ;
+
+        
+    
+    
+            var marker_dab5cd72ea674e059ab23570b55d0a2d = L.marker(
+                [40.3821126, -3.7095009],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_b95926f017bc471a838abed3016aaa05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_dab5cd72ea674e059ab23570b55d0a2d.setIcon(icon_b95926f017bc471a838abed3016aaa05);
+        
+    
+        var popup_3809551bb7ca4207b1f26a9413b4be17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd8fb841178841cb81de2dc2fef37b49 = $(`<div id="html_cd8fb841178841cb81de2dc2fef37b49" style="width: 100.0%; height: 100.0%;">Cei Fantasía</div>`)[0];
+            popup_3809551bb7ca4207b1f26a9413b4be17.setContent(html_cd8fb841178841cb81de2dc2fef37b49);
+        
+
+        marker_dab5cd72ea674e059ab23570b55d0a2d.bindPopup(popup_3809551bb7ca4207b1f26a9413b4be17)
+        ;
+
+        
+    
+    
+            var marker_44ca19509a784f35b303a19405d0a2ca = L.marker(
+                [40.40818970000001, -3.6818551],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_3bc81de46e5a42a09deca9b82a56a14a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_44ca19509a784f35b303a19405d0a2ca.setIcon(icon_3bc81de46e5a42a09deca9b82a56a14a);
+        
+    
+        var popup_525c94ef45ba4c46880a2ed6bfa77e6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d02f6d35ed6542d88554ee095db6d3da = $(`<div id="html_d02f6d35ed6542d88554ee095db6d3da" style="width: 100.0%; height: 100.0%;">Niro</div>`)[0];
+            popup_525c94ef45ba4c46880a2ed6bfa77e6f.setContent(html_d02f6d35ed6542d88554ee095db6d3da);
+        
+
+        marker_44ca19509a784f35b303a19405d0a2ca.bindPopup(popup_525c94ef45ba4c46880a2ed6bfa77e6f)
+        ;
+
+        
+    
+    
+            var marker_4e22007bb80d4df284d13bea241d25b2 = L.marker(
+                [40.4024551, -3.6790747],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_2e3c03928b614b63a59ecbf452dcfcaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4e22007bb80d4df284d13bea241d25b2.setIcon(icon_2e3c03928b614b63a59ecbf452dcfcaf);
+        
+    
+        var popup_5a9e227ea1b54c92aac2532816360051 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a28c2913d0f45269809f7c3f107a1c3 = $(`<div id="html_8a28c2913d0f45269809f7c3f107a1c3" style="width: 100.0%; height: 100.0%;">Teddy Centro Infantil</div>`)[0];
+            popup_5a9e227ea1b54c92aac2532816360051.setContent(html_8a28c2913d0f45269809f7c3f107a1c3);
+        
+
+        marker_4e22007bb80d4df284d13bea241d25b2.bindPopup(popup_5a9e227ea1b54c92aac2532816360051)
+        ;
+
+        
+    
+    
+            var marker_b2ff442e129549ecb740cadca2496974 = L.marker(
+                [40.4009226, -3.658345],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_3d0424fc28a441dcab8f11166c1b6a14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b2ff442e129549ecb740cadca2496974.setIcon(icon_3d0424fc28a441dcab8f11166c1b6a14);
+        
+    
+        var popup_4ea2cfd9af124ab896b5d9b2ee749288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2b668fa92745449c960b4aaa51eabb3b = $(`<div id="html_2b668fa92745449c960b4aaa51eabb3b" style="width: 100.0%; height: 100.0%;">Cei Pamacoti-Estimulacion</div>`)[0];
+            popup_4ea2cfd9af124ab896b5d9b2ee749288.setContent(html_2b668fa92745449c960b4aaa51eabb3b);
+        
+
+        marker_b2ff442e129549ecb740cadca2496974.bindPopup(popup_4ea2cfd9af124ab896b5d9b2ee749288)
+        ;
+
+        
+    
+    
+            var marker_d0532d34fd6249cc864365bc8b5bdb2a = L.marker(
+                [40.3861233, -3.6610505],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_e7308ebd949f422ca4d0934510de6b77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d0532d34fd6249cc864365bc8b5bdb2a.setIcon(icon_e7308ebd949f422ca4d0934510de6b77);
+        
+    
+        var popup_7cc5e9aa55744aa98306d7cd54c92b8d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e3133db89f445a6a32bba6edc1ae18c = $(`<div id="html_2e3133db89f445a6a32bba6edc1ae18c" style="width: 100.0%; height: 100.0%;">Cuquitos Guarderia</div>`)[0];
+            popup_7cc5e9aa55744aa98306d7cd54c92b8d.setContent(html_2e3133db89f445a6a32bba6edc1ae18c);
+        
+
+        marker_d0532d34fd6249cc864365bc8b5bdb2a.bindPopup(popup_7cc5e9aa55744aa98306d7cd54c92b8d)
+        ;
+
+        
+    
+    
+            var marker_fb7fd42dd7ce467b8a62eedc9aa2a86e = L.marker(
+                [40.4086801, -3.6992935],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_637eb2c41ed342c3b61caa0ee7b94ee5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fb7fd42dd7ce467b8a62eedc9aa2a86e.setIcon(icon_637eb2c41ed342c3b61caa0ee7b94ee5);
+        
+    
+        var popup_ccfcbf721cb94176b8528c1141900777 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36479e63d95640c5b91d54dee1ae4a23 = $(`<div id="html_36479e63d95640c5b91d54dee1ae4a23" style="width: 100.0%; height: 100.0%;">Guarderia Infantil El Camino</div>`)[0];
+            popup_ccfcbf721cb94176b8528c1141900777.setContent(html_36479e63d95640c5b91d54dee1ae4a23);
+        
+
+        marker_fb7fd42dd7ce467b8a62eedc9aa2a86e.bindPopup(popup_ccfcbf721cb94176b8528c1141900777)
+        ;
+
+        
+    
+    
+            var marker_5426ea7e47b24f5ca61fba3f17fa60a1 = L.marker(
+                [40.4035586, -3.6698899],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_3a3ea8a7dec542a3af61eaf3e828719f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5426ea7e47b24f5ca61fba3f17fa60a1.setIcon(icon_3a3ea8a7dec542a3af61eaf3e828719f);
+        
+    
+        var popup_db2d4805980e4881810f830496e31410 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b036c9ed0c76499ab3159f877c8cfb20 = $(`<div id="html_b036c9ed0c76499ab3159f877c8cfb20" style="width: 100.0%; height: 100.0%;">Guarderias Reunidas</div>`)[0];
+            popup_db2d4805980e4881810f830496e31410.setContent(html_b036c9ed0c76499ab3159f877c8cfb20);
+        
+
+        marker_5426ea7e47b24f5ca61fba3f17fa60a1.bindPopup(popup_db2d4805980e4881810f830496e31410)
+        ;
+
+        
+    
+    
+            var marker_3f92b13f39764fe5b0fb0a7c4129c749 = L.marker(
+                [40.3908274, -3.687219],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_0a92220456674861b0defe182d733374 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3f92b13f39764fe5b0fb0a7c4129c749.setIcon(icon_0a92220456674861b0defe182d733374);
+        
+    
+        var popup_3d316d6de96a4db285489918bd66bdac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64705accb53447628a23963f1c515206 = $(`<div id="html_64705accb53447628a23963f1c515206" style="width: 100.0%; height: 100.0%;">Guarderia Kika</div>`)[0];
+            popup_3d316d6de96a4db285489918bd66bdac.setContent(html_64705accb53447628a23963f1c515206);
+        
+
+        marker_3f92b13f39764fe5b0fb0a7c4129c749.bindPopup(popup_3d316d6de96a4db285489918bd66bdac)
+        ;
+
+        
+    
+    
+            var marker_94e1432fe3034320a4e62d8cf398ef75 = L.marker(
+                [40.4077011, -3.6726038],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_d81e8f002819472188aa6122436b6543 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_94e1432fe3034320a4e62d8cf398ef75.setIcon(icon_d81e8f002819472188aa6122436b6543);
+        
+    
+        var popup_9b80381f000149b7aa98965b9271c664 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_800b0e59d51e4d0f8bb62346d994b54d = $(`<div id="html_800b0e59d51e4d0f8bb62346d994b54d" style="width: 100.0%; height: 100.0%;">Estrella Amdal</div>`)[0];
+            popup_9b80381f000149b7aa98965b9271c664.setContent(html_800b0e59d51e4d0f8bb62346d994b54d);
+        
+
+        marker_94e1432fe3034320a4e62d8cf398ef75.bindPopup(popup_9b80381f000149b7aa98965b9271c664)
+        ;
+
+        
+    
+    
+            var marker_4d247d1fafe2465b81d3bf60c9e07076 = L.marker(
+                [40.4077128, -3.6724451],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_f55557d543d34bc09865d03c5abe2aab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4d247d1fafe2465b81d3bf60c9e07076.setIcon(icon_f55557d543d34bc09865d03c5abe2aab);
+        
+    
+        var popup_03f45f0ede2b4037b93158d5d05c0cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1021b38aa8c54d019a71efa4b9eb41f9 = $(`<div id="html_1021b38aa8c54d019a71efa4b9eb41f9" style="width: 100.0%; height: 100.0%;">Estrella Amdal</div>`)[0];
+            popup_03f45f0ede2b4037b93158d5d05c0cc7.setContent(html_1021b38aa8c54d019a71efa4b9eb41f9);
+        
+
+        marker_4d247d1fafe2465b81d3bf60c9e07076.bindPopup(popup_03f45f0ede2b4037b93158d5d05c0cc7)
+        ;
+
+        
+    
+    
+            var marker_f7dc0165ed4344b7b7336e988ebb88fe = L.marker(
+                [40.40787, -3.6718897],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_f3648b8f05ee406a9b2e927dcb6d2eec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_f7dc0165ed4344b7b7336e988ebb88fe.setIcon(icon_f3648b8f05ee406a9b2e927dcb6d2eec);
+        
+    
+        var popup_e8eb676e376f4aa082514ff57932db41 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df672a1b16334a4caa2165f5387d0058 = $(`<div id="html_df672a1b16334a4caa2165f5387d0058" style="width: 100.0%; height: 100.0%;">Tenacio Vara Francisco</div>`)[0];
+            popup_e8eb676e376f4aa082514ff57932db41.setContent(html_df672a1b16334a4caa2165f5387d0058);
+        
+
+        marker_f7dc0165ed4344b7b7336e988ebb88fe.bindPopup(popup_e8eb676e376f4aa082514ff57932db41)
+        ;
+
+        
+    
+    
+            var marker_8db2e318e661424383bc0304d88c3304 = L.marker(
+                [40.4075317, -3.6718204],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_71a90e6f8ddf416cb28ee2489a2057ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_8db2e318e661424383bc0304d88c3304.setIcon(icon_71a90e6f8ddf416cb28ee2489a2057ff);
+        
+    
+        var popup_63d6753c95e34739b35fd3cbdd351e5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45a5414f7f2b4edcbb4badd0943eca3a = $(`<div id="html_45a5414f7f2b4edcbb4badd0943eca3a" style="width: 100.0%; height: 100.0%;">Fema y Delsa</div>`)[0];
+            popup_63d6753c95e34739b35fd3cbdd351e5e.setContent(html_45a5414f7f2b4edcbb4badd0943eca3a);
+        
+
+        marker_8db2e318e661424383bc0304d88c3304.bindPopup(popup_63d6753c95e34739b35fd3cbdd351e5e)
+        ;
+
+        
+    
+    
+            var marker_ecfd7d9547664d1eb58472cfe0edc21c = L.marker(
+                [40.3798172, -3.6609376],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_7bafb5eedda948199c05a6c837748a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ecfd7d9547664d1eb58472cfe0edc21c.setIcon(icon_7bafb5eedda948199c05a6c837748a52);
+        
+    
+        var popup_e7ee4bfa223045d2a9807e72bd4f08bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffe2d59fb6b94f7d9969a3c64df3d256 = $(`<div id="html_ffe2d59fb6b94f7d9969a3c64df3d256" style="width: 100.0%; height: 100.0%;">Gredos San Diego S.C.L.</div>`)[0];
+            popup_e7ee4bfa223045d2a9807e72bd4f08bd.setContent(html_ffe2d59fb6b94f7d9969a3c64df3d256);
+        
+
+        marker_ecfd7d9547664d1eb58472cfe0edc21c.bindPopup(popup_e7ee4bfa223045d2a9807e72bd4f08bd)
+        ;
+
+        
+    
+    
+            var marker_10be0f4a1f2d41a39a86c49e9e87c4fb = L.marker(
+                [40.421593, -3.6672951],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_91dbfe6cede443838496276f784038ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_10be0f4a1f2d41a39a86c49e9e87c4fb.setIcon(icon_91dbfe6cede443838496276f784038ed);
+        
+    
+        var popup_7bbbc069f4484abd88f03e22545edc18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_884e1cbaa43546feaa3bbc2b20d5d2e9 = $(`<div id="html_884e1cbaa43546feaa3bbc2b20d5d2e9" style="width: 100.0%; height: 100.0%;">Escuela Infantil Trazos</div>`)[0];
+            popup_7bbbc069f4484abd88f03e22545edc18.setContent(html_884e1cbaa43546feaa3bbc2b20d5d2e9);
+        
+
+        marker_10be0f4a1f2d41a39a86c49e9e87c4fb.bindPopup(popup_7bbbc069f4484abd88f03e22545edc18)
+        ;
+
+        
+    
+    
+            var marker_b39be51f3d754e34b17729dda2ed9aef = L.marker(
+                [40.41522459999999, -3.6747229],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_38551e1a6ca940e6bca39a9049d58fef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b39be51f3d754e34b17729dda2ed9aef.setIcon(icon_38551e1a6ca940e6bca39a9049d58fef);
+        
+    
+        var popup_e65bea3f108f4d0f9606d0cff666c286 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd94c8b6964d4a96b9f1d7c18b209f19 = $(`<div id="html_dd94c8b6964d4a96b9f1d7c18b209f19" style="width: 100.0%; height: 100.0%;">Buen Bebe</div>`)[0];
+            popup_e65bea3f108f4d0f9606d0cff666c286.setContent(html_dd94c8b6964d4a96b9f1d7c18b209f19);
+        
+
+        marker_b39be51f3d754e34b17729dda2ed9aef.bindPopup(popup_e65bea3f108f4d0f9606d0cff666c286)
+        ;
+
+        
+    
+    
+            var marker_cd607d12f8504fa4a52eb8e35cf97694 = L.marker(
+                [40.3808675, -3.7086286],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_d004ec8aad9b48d49181793d5df05eb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cd607d12f8504fa4a52eb8e35cf97694.setIcon(icon_d004ec8aad9b48d49181793d5df05eb6);
+        
+    
+        var popup_74f5a58885ec4064a69d77ad1db2c2ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e872ca45f16c407789589aa8d4cf09ba = $(`<div id="html_e872ca45f16c407789589aa8d4cf09ba" style="width: 100.0%; height: 100.0%;">Escuela Infantil La Cometa</div>`)[0];
+            popup_74f5a58885ec4064a69d77ad1db2c2ab.setContent(html_e872ca45f16c407789589aa8d4cf09ba);
+        
+
+        marker_cd607d12f8504fa4a52eb8e35cf97694.bindPopup(popup_74f5a58885ec4064a69d77ad1db2c2ab)
+        ;
+
+        
+    
+    
+            var marker_af6c7bfc00da4485861eed3f70751b9e = L.marker(
+                [40.4000595, -3.7004416],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_284e8f0d42794cd4b0719185bb1aeb77 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_af6c7bfc00da4485861eed3f70751b9e.setIcon(icon_284e8f0d42794cd4b0719185bb1aeb77);
+        
+    
+        var popup_27294430975f4af8999bbfec89f8e503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04aae515e7774a0c848055258eb70ec3 = $(`<div id="html_04aae515e7774a0c848055258eb70ec3" style="width: 100.0%; height: 100.0%;">Bermejo Garcia Maria Lourdes</div>`)[0];
+            popup_27294430975f4af8999bbfec89f8e503.setContent(html_04aae515e7774a0c848055258eb70ec3);
+        
+
+        marker_af6c7bfc00da4485861eed3f70751b9e.bindPopup(popup_27294430975f4af8999bbfec89f8e503)
+        ;
+
+        
+    
+    
+            var marker_22a9b6b8596a4d66ace15b76834b246a = L.marker(
+                [40.3854723, -3.7101748],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_caf19ba7ac5e415a9ff3e0a625d0b30d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_22a9b6b8596a4d66ace15b76834b246a.setIcon(icon_caf19ba7ac5e415a9ff3e0a625d0b30d);
+        
+    
+        var popup_254eee992324401b827295944b8f59d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f524c65b6b2c4f39a27869dd031edf55 = $(`<div id="html_f524c65b6b2c4f39a27869dd031edf55" style="width: 100.0%; height: 100.0%;">Escuela Infantil La Guarde</div>`)[0];
+            popup_254eee992324401b827295944b8f59d6.setContent(html_f524c65b6b2c4f39a27869dd031edf55);
+        
+
+        marker_22a9b6b8596a4d66ace15b76834b246a.bindPopup(popup_254eee992324401b827295944b8f59d6)
+        ;
+
+        
+    
+    
+            var marker_c2b18368ec1d4e27aebcc0688481485d = L.marker(
+                [40.416419, -3.662593199999999],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_57e30fa2fb5f4e57b722f802fedd092c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c2b18368ec1d4e27aebcc0688481485d.setIcon(icon_57e30fa2fb5f4e57b722f802fedd092c);
+        
+    
+        var popup_684714d965304275abca395af49fe80c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f78dcd200e6c4232963e7cdc27cc01e0 = $(`<div id="html_f78dcd200e6c4232963e7cdc27cc01e0" style="width: 100.0%; height: 100.0%;">Velasgal Pinocho Educacion</div>`)[0];
+            popup_684714d965304275abca395af49fe80c.setContent(html_f78dcd200e6c4232963e7cdc27cc01e0);
+        
+
+        marker_c2b18368ec1d4e27aebcc0688481485d.bindPopup(popup_684714d965304275abca395af49fe80c)
+        ;
+
+        
+    
+    
+            var marker_dc65d120bbd84cb78f25f59541501413 = L.marker(
+                [40.4297573, -3.644064299999999],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_a4945b59300245aa9a9e179291bb179c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_dc65d120bbd84cb78f25f59541501413.setIcon(icon_a4945b59300245aa9a9e179291bb179c);
+        
+    
+        var popup_d08e5d00613f465dbf5f223567e91cdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ee5a8a8ce3c486f8eabf69390633bdd = $(`<div id="html_8ee5a8a8ce3c486f8eabf69390633bdd" style="width: 100.0%; height: 100.0%;">Guarderia Lazaro</div>`)[0];
+            popup_d08e5d00613f465dbf5f223567e91cdb.setContent(html_8ee5a8a8ce3c486f8eabf69390633bdd);
+        
+
+        marker_dc65d120bbd84cb78f25f59541501413.bindPopup(popup_d08e5d00613f465dbf5f223567e91cdb)
+        ;
+
+        
+    
+    
+            var marker_a12e2482a82a4234b5d29b9a907eaba5 = L.marker(
+                [40.4154791, -3.6739384],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_1ec0f87aa16340bcb5e7dc4abab2cb2e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a12e2482a82a4234b5d29b9a907eaba5.setIcon(icon_1ec0f87aa16340bcb5e7dc4abab2cb2e);
+        
+    
+        var popup_96d139ac0c5e4d8b830d5bc2c780fd20 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9fbad04ba4244dcb935e486e4c49a04 = $(`<div id="html_e9fbad04ba4244dcb935e486e4c49a04" style="width: 100.0%; height: 100.0%;">Chupilandia La Casa De Tus Peques</div>`)[0];
+            popup_96d139ac0c5e4d8b830d5bc2c780fd20.setContent(html_e9fbad04ba4244dcb935e486e4c49a04);
+        
+
+        marker_a12e2482a82a4234b5d29b9a907eaba5.bindPopup(popup_96d139ac0c5e4d8b830d5bc2c780fd20)
+        ;
+
+        
+    
+    
+            var marker_7dc9827067eb487b8c6b89ca460c172a = L.marker(
+                [40.4298923, -3.6511188],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_ddbad0cc7f5144659fa7e9629a515baa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_7dc9827067eb487b8c6b89ca460c172a.setIcon(icon_ddbad0cc7f5144659fa7e9629a515baa);
+        
+    
+        var popup_1f8c4eb19c3c40129639ea0984bc7939 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6994fa61ec92441e9bf87acf3362ff02 = $(`<div id="html_6994fa61ec92441e9bf87acf3362ff02" style="width: 100.0%; height: 100.0%;">Mi Primer Cole</div>`)[0];
+            popup_1f8c4eb19c3c40129639ea0984bc7939.setContent(html_6994fa61ec92441e9bf87acf3362ff02);
+        
+
+        marker_7dc9827067eb487b8c6b89ca460c172a.bindPopup(popup_1f8c4eb19c3c40129639ea0984bc7939)
+        ;
+
+        
+    
+    
+            var marker_2471b5d462454089898eebd92f64f3cc = L.marker(
+                [40.4431591, -3.6900727],
+                {}
+            ).addTo(map_b6ee74c0c1da4f319751915d4997d72d);
+        
+    
+            var icon_755b75c3f68b4a2a84456f19476d3a27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2471b5d462454089898eebd92f64f3cc.setIcon(icon_755b75c3f68b4a2a84456f19476d3a27);
+        
+    
+        var popup_ceb19067b924440da815fa228e2e9767 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8528f0f3a574d56a4718c94042f6b32 = $(`<div id="html_a8528f0f3a574d56a4718c94042f6b32" style="width: 100.0%; height: 100.0%;">Arcadia II</div>`)[0];
+            popup_ceb19067b924440da815fa228e2e9767.setContent(html_a8528f0f3a574d56a4718c94042f6b32);
+        
+
+        marker_2471b5d462454089898eebd92f64f3cc.bindPopup(popup_ceb19067b924440da815fa228e2e9767)
+        ;
+
+        
+    
+</script>

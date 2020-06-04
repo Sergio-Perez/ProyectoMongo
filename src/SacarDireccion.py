@@ -16,7 +16,7 @@ def ExtractDireccion(donde, elque, paginas):
     nombres=[]
     adress=[]
     
-    if len(r) >= 3 or r[0] == -1:
+    if len(r) > 3 or r[0] == -1:
         print("Exceso de páginas, máximo 3 páginas (nos pueden banear) o número de páginas inválido")
     else:
         

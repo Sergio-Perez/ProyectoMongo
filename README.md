@@ -30,7 +30,6 @@ Como solo me sale una coincidencia no tengo que probar más para Madrid.
 
 Siendo el resultado.
 
-
-<img src="/Input/imagenes/resultadoColocacionEmpresa.html" width="100">
+<img src="/Input/imagenes/imagenMapaFolium.png" width="100">
 
 

@@ -14,8 +14,9 @@ Primero seleciono una ubicación, como yo vivo en Madrid. Busco las empresas tec
 Los criterio que voy a coger son:
 
     --> Guarderias cercanas.
-    --> Starbukcs    
+    --> Starbukcs.    
     --> Aeropuertos.
+    --> Restaurante Veganos.
 ## Buscar información:
 
 Haciendo web scraping saco las direcciones de los starbucks, guarderias y aeropuertos.
